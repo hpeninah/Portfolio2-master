@@ -1,32 +1,119 @@
-# React + TypeScript + Vite
+# Hannah Mulato Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+The site highlights my work across software engineering, bioinformatics, computational biology, scientific computing, and data-focused projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Site
 
-## React Compiler
+Add your deployed portfolio link here once published.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Featured Projects
 
-## Expanding the Oxlint configuration
+### HPC Genomics Pipeline
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+A reproducible genomic analysis workflow for processing sequencing data from FASTQ through alignment, variant calling, annotation, and downstream analysis.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+**Technologies:** Python, Snakemake, SLURM, Bash, BWA, GATK, VEP
+
+### GeneInsight
+
+A full-stack bioinformatics research platform combining gene, protein, literature, structural biology, and CRISPR information into a single interface.
+
+**Technologies:** Python, FastAPI, React, Vite, UniProt, PubMed, AlphaFold
+
+### Computational Systems Biology Models
+
+A collection of computational biology models exploring viral dynamics, cancer biology, circadian rhythms, and microbial competition through simulation and optimization.
+
+**Technologies:** COPASI, ODE Modeling, Simulation, Parameter Scans, Optimization
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* HTML
+* CSS
+* Formspree
+
+## Features
+
+* Responsive layout for desktop and mobile
+* Light and dark themes
+* Theme preference saved locally
+* Automatic system theme detection
+* Reusable React components
+* TypeScript-based project and skills data
+* Resume access
+* Contact form
+* Links to GitHub, LinkedIn, and live projects
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── About.tsx
+│   ├── Contact.tsx
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── ProjectCard.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   └── ThemeToggle.tsx
+│
+├── data/
+│   ├── projects.ts
+│   └── skills.ts
+│
+├── App.css
+├── App.tsx
+├── index.css
+└── main.tsx
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/hpeninah/Portfolio2.git
+```
+
+Move into the project directory:
+
+```bash
+cd Portfolio2
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local Vite URL shown in the terminal.
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+The production build will be generated in the `dist` directory.
+
+## About Me
+
+I'm a software engineer with a B.S. in Bioinformatics and Computational Biology. My interests span software engineering, bioinformatics, scientific computing, data engineering, and computational biology.
+
+## Connect
+
+* GitHub: https://github.com/hpeninah
+* LinkedIn: https://www.linkedin.com/in/hannah-mulato-62487173/
