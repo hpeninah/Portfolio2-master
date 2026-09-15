@@ -24,15 +24,20 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./portfolio-react
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: portfolio-react/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -44,9 +49,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Upload build
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./portfolio-react/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
