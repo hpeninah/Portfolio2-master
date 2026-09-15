@@ -26,7 +26,7 @@ function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               className="button button-secondary"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ function Hero() {
 
         <div className="hero-image">
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Hannah Mulato"
             className="profile-photo"
           />
