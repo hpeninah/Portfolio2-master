@@ -6,7 +6,7 @@ The site highlights my work across software engineering, bioinformatics, computa
 
 ## Live Site
 
-Add your deployed portfolio link here once published.
+(https://hpeninah.github.io/Portfolio2-master/)
 
 ## Featured Projects
 
