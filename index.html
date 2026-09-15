@@ -3,211 +3,534 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Hannah Mulato | Software Developer | Portfolio</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hannah Mulato | Software Engineer & Bioinformatics</title>
+
+	<meta
+		name="description"
+		content="Portfolio of Hannah Mulato, a software engineer specializing in bioinformatics, computational biology, data, and scientific computing."
+	>
+
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-  <header>
-		<div class="logo">Hannah Mulato</div>
-    <nav>
+	<!-- Navigation -->
+	<header>
+		<a href="#home" class="logo">Hannah Mulato</a>
+
+		<nav aria-label="Main navigation">
 			<ul id="menu">
-				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
-<main>
 
-		<!-- Introduction -->
-		<section id="home">
-			<div class="group">
-				<div class="item">
-					<img src="images/home/IMG_20190204_153607.jpg" alt="Hannah Mulato - Profile Photo" class="image-enhanced"> 
-				</div>
-				<div class="item">
-					<div class="textborder2">
-					<h1>Hannah Mulato</h1>
-					<h4>Software Engineer | Bioinformatics & Computational Biology | Data Analytics</h4>
-					<p>I build software, data tools, and computational workflows for complex
-						scientific and technical problems, with experience in full-stack development, APIs,
-						databases, genomics, and high-performance computing.
+	<main>
+
+		<!-- HERO -->
+		<section id="home" class="hero">
+
+			<div class="hero-content">
+
+				<div class="hero-text">
+
+					<p class="eyebrow">
+						SOFTWARE ENGINEERING · BIOINFORMATICS · DATA
 					</p>
-					<h5>View My Projects | View Resume | GitHub | LinkedIn</h5>
+
+					<h1>Hi, I'm Hannah.</h1>
+
+					<h2 class="hero-title">
+						I build software and computational tools for complex data.
+					</h2>
+
+					<p class="hero-description">
+						I'm a software engineer with a background in Bioinformatics and
+						Computational Biology, working across full-stack development,
+						APIs, databases, genomic workflows, and scientific computing.
+					</p>
+
+					<div class="hero-buttons">
+
+						<a href="#portfolio" class="button">
+							View Projects
+						</a>
+
+						<a href="/images/Hannah_Mulato_Bioinformatics_Software_Resume.docx.pdf"
+						   class="button button-secondary"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							Resume
+						</a>
+
 					</div>
-                </div>
-			</div>
-    </section>
 
-    <!-- About me -->
-	<section class="dark-background" id="about">
-      <h2>About me</h2>
-    <div class="group">
-        <div class="item item-double">
-			<div class="textborder">
-          <p>I'm a software engineer with a B.S. in Bioinformatics and Computational Biology and professional experience in software development.</p>
-		  <p>My background is diverse in software engineering, biological data, and scientific computing. I've worked with technologies including Python, Java, React, FastAPI, REST APIs, SQL and NoSQL databases, Git, Docker, cloud platforms, and Linux, while also developing computational workflows involving genomic data analysis, workflow automation, and high-performance computing.</p>
-		  <p>I enjoy solving problems that require both technical engineering and analytical thinking. Whether that means building an application, designing an API, automating a data workflow, or developing computational tools for biological research.</p>
-          <p>I'm particularly interested in opportunities in software engineering, bioinformatics, computational biology, scientific computing, and data engineering.</p>
-			</div>
-		</div>
-	</div>
-	</section>
+					<div class="hero-links">
+						<a href="https://github.com/hpeninah"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							GitHub
+						</a>
 
-	    <!-- Skills -->
-	<section class="dark-background" id="about">
-      <h2>Technical Skills</h2>
-    <div class="group">
-        <div class="item item-double">
-			<div class="textborder">	
-				<h4>Languages</h4>
-				<p>Python, Java, JavaScript, SQL, Bash</p>
-				<h4>Backend & APIs</h4>
-				<p>FastAPI, Spring Boot, REST APIs, GraphQL, Node.js</p>
-				<h4>Frontend</h4>
-				<p>React, Vite, Mantine, HTML, CSS</p>
-				<h4>Bioinformatics & Scientific Computing</h4>
-				<p>BWA, GATK, samtools, bcftools, VEP, ANNOVAR, COPASI</p>
-				<h4>Workflow & HPC</h4>
-				<p>Snakemake, SLURM, Conda, Linux</p>
-				<h4>Databases</h4>
-				<p>PostgreSQL, MySQL, MongoDB</p>
-				<h4>DevOps & Cloud</h4>
-				<p>Git, GitHub, Docker, Kubernetes, Jenkins, AWS, Azure</p>
-			</div>
-		</div>
-	</div>
-	</section>
-
-	    <!-- Currently -->
-	<section class="dark-background" id="about">
-      <h2>Currently</h2>
-    <div class="group">
-        <div class="item item-double">
-			<div class="textborder">
-          <p>I'm currently seeking opportunities where I can contribute my software engineering background while continuing to grow in scientific computing, bioinformatics, data engineering, and computational biology.</p>
-		  <h5>Based in Maryland | Open to Remote and Relocation</h5>
-			</div>
-		</div>
-	</div>
-	</section>
-    
-
-    <!-- Portfolio -->
-    <section id="portfolio">
-			<h2>Portfolio</h2>
-			<div class="group">
-				<div class="item">
-					<div class="textborder3">
-          			<img src="" alt="GeneInsight - Hannah Mulato" class="rounded">
-					 	 <h3>GeneInsight</h3>
-						  <p>Developed a full-stack bioinformatics research platform designed to bring gene, protein, literature, structural biology, and CRISPR information into one interface. The application integrates multiple biological data sources through a FastAPI backend and provides researchers with tools for exploring literature, protein structures, gene information, and CRISPR guide candidates.</p>
-							<br>
-						  	<strong>Technologies:</strong> Python, FastAPI, React, Vite, Mantine, REST APIs, UniProt, PubMed, AlphaFold, Ensembl
-							<h4>Highlights</h4>
-
-							<ul>
-							<li>Built and integrated REST API endpoints for biological data</li>
-							<li>Connected multiple external scientific APIs and databases</li>
-							<li>Implemented literature search and relevance ranking</li>
-							<li>Integrated AlphaFold protein structure data</li>
-							<li>Developed CRISPR guide exploration features</li>
-							<li>Improved performance through caching and error handling</li>
-							</ul>
-						<h4><a href="https://github.com/hpeninah/geneinsight">GitHub</a> | <a href="https://geneinsight.vercel.app/">View Project</a></h4>
+						<a href="https://www.linkedin.com/in/hannah-mulato-62487173/"
+						   target="_blank"
+						   rel="noopener noreferrer">
+							LinkedIn
+						</a>
 					</div>
+
 				</div>
-				<div class="item">
-					<div class="textborder3">
-          			<img src="" alt="Computational Systems Biology Models - Hannah Mulato" class="rounded">
-						<h3>Computational Systems Biology Models</h3>
-						<p>
-								Developed and analyzed computational models of biological systems using simulation, parameter scans, and optimization techniques.
-								<br>
-								Projects explored viral dynamics, cancer biology, circadian rhythms, and microbial competition.
-								<br>
-						</p>
-							<p><strong>Technologies:</strong> COPASI, ODE Modeling, Parameter Scans, Optimization, Simulation</p>
-							<h4>Projects Included</h4>
 
-							<ul>
+
+				<div class="hero-image">
+
+					<img
+						src="images/home/IMG_20190204_153607.jpg"
+						alt="Hannah Mulato"
+						class="profile-photo"
+					>
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<!-- ABOUT -->
+		<section id="about" class="about-section">
+
+			<div class="section-heading">
+				<p class="eyebrow">ABOUT</p>
+				<h2>Software meets science.</h2>
+			</div>
+
+
+			<div class="about-grid">
+
+				<div class="about-main">
+
+					<p>
+						I'm a software engineer with a B.S. in Bioinformatics and
+						Computational Biology and professional experience in software
+						development.
+					</p>
+
+					<p>
+						My background sits at the intersection of software engineering,
+						biological data, and scientific computing. I've worked with
+						technologies including Python, Java, React, FastAPI, REST APIs,
+						SQL and NoSQL databases, Git, Docker, cloud platforms, and Linux,
+						while also developing computational workflows involving genomic
+						data analysis, workflow automation, and high-performance computing.
+					</p>
+
+					<p>
+						I enjoy solving problems that require both engineering and
+						analytical thinking — whether that's building an application,
+						designing an API, automating a data workflow, or creating
+						computational tools for biological research.
+					</p>
+
+				</div>
+
+
+				<aside class="currently-card">
+
+					<p class="eyebrow">CURRENTLY</p>
+
+					<h3>Open to new opportunities</h3>
+
+					<p>
+						I'm interested in software engineering, bioinformatics,
+						computational biology, scientific computing, and data-focused
+						roles.
+					</p>
+
+					<p class="location">
+						Based in the U.S.<br>
+						Open to remote work and relocation
+					</p>
+
+				</aside>
+
+			</div>
+
+		</section>
+
+
+		<!-- SKILLS -->
+		<section id="skills" class="skills-section">
+
+			<div class="section-heading">
+				<p class="eyebrow">TECH STACK</p>
+				<h2>Technical Skills</h2>
+
+				<p>
+					Tools and technologies I've used across software engineering,
+					bioinformatics, and computational projects.
+				</p>
+			</div>
+
+
+			<div class="skills-grid">
+
+				<div class="skill-card">
+					<h3>Languages</h3>
+					<p>Python · Java · JavaScript · SQL · Bash</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>Backend & APIs</h3>
+					<p>FastAPI · Spring Boot · REST APIs · GraphQL · Node.js</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>Frontend</h3>
+					<p>React · Vite · Mantine · HTML · CSS</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>Bioinformatics</h3>
+					<p>BWA · GATK · samtools · bcftools · VEP · ANNOVAR · COPASI</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>Workflow & HPC</h3>
+					<p>Snakemake · SLURM · Conda · Linux</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>Databases</h3>
+					<p>PostgreSQL · MySQL · MongoDB</p>
+				</div>
+
+
+				<div class="skill-card">
+					<h3>DevOps & Cloud</h3>
+					<p>Git · GitHub · Docker · Kubernetes · Jenkins · AWS · Azure</p>
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<!-- PROJECTS -->
+		<section id="portfolio" class="projects-section">
+
+			<div class="section-heading">
+				<p class="eyebrow">SELECTED WORK</p>
+				<h2>Featured Projects</h2>
+
+				<p>
+					Projects spanning full-stack development, genomics,
+					scientific computing, and computational biology.
+				</p>
+			</div>
+
+
+			<div class="projects-grid">
+
+
+				<!-- HPC PIPELINE -->
+				<article class="project-card project-featured">
+
+					<div class="project-number">01</div>
+
+					<div class="project-content">
+
+						<p class="project-type">
+							GENOMICS · HPC · WORKFLOW AUTOMATION
+						</p>
+
+						<h3>HPC Genomics Pipeline</h3>
+
+						<p>
+							A reproducible genomic analysis workflow for processing
+							sequencing data from FASTQ through alignment, variant calling,
+							annotation, and downstream analysis.
+						</p>
+
+						<p>
+							The workflow was designed around scalable execution,
+							reproducibility, and high-performance computing concepts.
+						</p>
+
+
+						<div class="tech-tags">
+							<span>Python</span>
+							<span>Snakemake</span>
+							<span>SLURM</span>
+							<span>Bash</span>
+							<span>GATK</span>
+							<span>BWA</span>
+							<span>VEP</span>
+						</div>
+
+
+						<ul class="project-highlights">
+							<li>Designed an end-to-end sequencing workflow</li>
+							<li>Automated dependencies and processing with Snakemake</li>
+							<li>Structured processing for parallel HPC execution</li>
+							<li>Integrated alignment, variant calling, filtering, and annotation</li>
+						</ul>
+
+
+						<div class="project-links">
+							<!-- Add link when repository is ready -->
+							<a href="#" class="project-link">Project Details →</a>
+						</div>
+
+					</div>
+
+				</article>
+
+
+
+				<!-- GENEINSIGHT -->
+				<article class="project-card">
+
+					<div class="project-number">02</div>
+
+					<div class="project-content">
+
+						<p class="project-type">
+							FULL STACK · BIOINFORMATICS
+						</p>
+
+						<h3>GeneInsight</h3>
+
+						<p>
+							A full-stack biomedical research platform combining gene,
+							protein, literature, structural biology, and CRISPR data
+							within a single research interface.
+						</p>
+
+
+						<div class="tech-tags">
+							<span>Python</span>
+							<span>FastAPI</span>
+							<span>React</span>
+							<span>Vite</span>
+							<span>UniProt</span>
+							<span>PubMed</span>
+							<span>AlphaFold</span>
+						</div>
+
+
+						<ul class="project-highlights">
+							<li>Integrated multiple scientific APIs and databases</li>
+							<li>Built REST endpoints for biological data</li>
+							<li>Implemented literature search and relevance ranking</li>
+							<li>Integrated protein structure and CRISPR features</li>
+						</ul>
+
+
+						<div class="project-links">
+
+							<a
+								href="https://github.com/hpeninah/geneinsight"
+								target="_blank"
+								rel="noopener noreferrer">
+								GitHub →
+							</a>
+
+							<a
+								href="https://geneinsight.vercel.app/"
+								target="_blank"
+								rel="noopener noreferrer">
+								Live Project →
+							</a>
+
+						</div>
+
+					</div>
+
+				</article>
+
+
+
+				<!-- SYSTEMS BIOLOGY -->
+				<article class="project-card">
+
+					<div class="project-number">03</div>
+
+					<div class="project-content">
+
+						<p class="project-type">
+							SYSTEMS BIOLOGY · MODELING
+						</p>
+
+						<h3>Computational Systems Biology</h3>
+
+						<p>
+							A collection of computational models exploring biological
+							systems through simulation, parameter scans, optimization,
+							and mathematical modeling.
+						</p>
+
+
+						<div class="tech-tags">
+							<span>COPASI</span>
+							<span>ODE Modeling</span>
+							<span>Simulation</span>
+							<span>Optimization</span>
+						</div>
+
+
+						<ul class="project-highlights">
 							<li>HIV recombinant-virus therapy model</li>
-							<li>Breast cancer and estrogen signaling model</li>
+							<li>Breast cancer and estrogen signaling</li>
 							<li>Circadian rhythm oscillator</li>
 							<li>Probiotic-pathogen interaction model</li>
-							</ul>
-						</p>
-					</div>
-				</div>
-			</div>
-      		<div class="group">
-				<div class="item">
-					<div class="textborder">
-          			<img src="" alt="HPC Genomics Pipeline - Hannah Mulato" class="rounded">
-        			<h3>HPC Genomics Pipeline</h3>
-							<p>
-								Built a reproducible genomic analysis workflow for processing sequencing data from FASTQ through alignment, variant calling, annotation, and downstream analysis.
-								<br>
-								The pipeline uses workflow automation and high-performance computing concepts to organize multi-step genomic processing and support parallel execution across samples.
-								<br>
-							</p>
-							<p><strong>Technologies:</strong> Python, Snakemake, SLURM, Bash, Conda, BWA, GATK, samtools, bcftools, VEP</p>
-							<h4>Highlights</h4>
+						</ul>
 
-							<ul>
-							<li>Designed an end-to-end sequencing analysis workflow</li>
-							<li>Automated dependencies and multi-step processing with Snakemake</li>
-							<li>Integrated alignment, variant calling, filtering, and annotation tools</li>
-							<li>Focused on reproducibility and scalable execution</li>
-							</ul>
-						</p>
 					</div>
-				</div>
+
+				</article>
+
+
 			</div>
+
 		</section>
 
-    <!-- Contact -->   
-    <section id="contact">
-			<h2>Let's Connect</h2>
-			<div class="group">
-				<div class="item">
-				<form action="https://formspree.io/f/mleozbgl" method="POST">
-          <label for="user-name">Name:</label>
-		  <input id="user-name" type="text" name="name">
-          <label for="user-email">Email:</label>
-          <input id="user-email" type="text" name="email">
 
-          <label for="user-message">Message:</label>
-          <textarea id="user-message" name="message"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-				</div>
-				<div class="item item-double">
-					<p>I'm open to opportunities in software engineering, bioinformatics, computational biology, scientific computing, and data-focused roles.</p>
-					<ul>
-					  <li><a href="mailto:hannah.p.mulato@gmail.com?subject=Excited%20to%20connect%20with%20you!">hannah.p.mulato@gmail.com</a></li>
-					  <li><a href="https://www.linkedin.com/in/hannah-mulato-62487173/">LinkedIn</a></li>
-					  <li><a href="https://github.com/hpeninah">GitHub</a></li>
-					</ul>
-					<p>Based in the US | Open to remote opportunities and relocation.</p>
-				</div>
+
+		<!-- CONTACT -->
+		<section id="contact" class="contact-section">
+
+			<div class="section-heading">
+				<p class="eyebrow">CONTACT</p>
+				<h2>Let's connect.</h2>
+
+				<p>
+					I'm open to opportunities in software engineering,
+					bioinformatics, computational biology, scientific computing,
+					and data-focused roles.
+				</p>
 			</div>
+
+
+			<div class="contact-grid">
+
+
+				<div class="contact-details">
+
+					<h3>Get in touch</h3>
+
+					<p>
+						Interested in working together or discussing an opportunity?
+						Feel free to send me a message.
+					</p>
+
+
+					<div class="contact-links">
+
+						<a href="mailto:hannah.p.mulato@gmail.com">
+							Email
+						</a>
+
+						<a
+							href="https://www.linkedin.com/in/hannah-mulato-62487173/"
+							target="_blank"
+							rel="noopener noreferrer">
+							LinkedIn
+						</a>
+
+						<a
+							href="https://github.com/hpeninah"
+							target="_blank"
+							rel="noopener noreferrer">
+							GitHub
+						</a>
+
+					</div>
+
+
+					<p class="location">
+						Based in the U.S.<br>
+						Open to remote opportunities and relocation.
+					</p>
+
+				</div>
+
+
+
+				<div class="contact-form-card">
+
+					<form
+						action="https://formspree.io/f/mleozbgl"
+						method="POST"
+					>
+
+						<label for="user-name">Name</label>
+
+						<input
+							id="user-name"
+							type="text"
+							name="name"
+							required
+						>
+
+
+						<label for="user-email">Email</label>
+
+						<input
+							id="user-email"
+							type="email"
+							name="email"
+							required
+						>
+
+
+						<label for="user-message">Message</label>
+
+						<textarea
+							id="user-message"
+							name="message"
+							required
+						></textarea>
+
+
+						<button type="submit">
+							Send Message
+						</button>
+
+					</form>
+
+				</div>
+
+			</div>
+
 		</section>
+
 	</main>
 
-<footer class="footer">
-	<div>
-		<nav>
-			<p>&copy; 2026 Hannah Mulato</p>
-		</nav>
-	</div>
-</footer>
 
-<script src="portfolio.js"></script>
+	<footer>
+
+		<p>
+			&copy; 2026 Hannah Mulato
+		</p>
+
+	</footer>
+
+
+	<script src="portfolio.js"></script>
+
 </body>
+
 </html>
